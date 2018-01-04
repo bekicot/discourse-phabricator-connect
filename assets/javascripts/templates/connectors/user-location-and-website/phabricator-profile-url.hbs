@@ -1,4 +1,4 @@
-{{#if currentUser.phabricator_url}}
+{{#if model.phabricator_url}}
   {{d-icon "gear"}}
-  <a href="{{currentUser.phabricator_url}}">{{currentUser.name}}</a>
+  <a href="{{model.phabricator_url}}">{{model.name}}</a>
 {{/if}}

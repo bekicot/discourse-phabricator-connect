@@ -151,4 +151,7 @@ after_initialize do
   add_to_serializer(:current_user, :phabricator_url) do
     scope.user.custom_fields['discourse_phabricator_connect']['phabricator_url'] if scope.user.custom_fields['discourse_phabricator_connect'].present?
   end
+  add_to_serializer(:user, :phabricator_url) do
+    user.custom_fields['discourse_phabricator_connect']['phabricator_url'] if user.custom_fields['discourse_phabricator_connect'].present?
+  end
 end
