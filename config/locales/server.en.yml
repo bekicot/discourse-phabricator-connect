@@ -1,0 +1,9 @@
+en:
+  site_settings:
+    discourse_phabricator_connect_enabled: 'Enable Discourse Phabricator Connect'
+    phabricator_client_id: 'Phabricator Client Id'
+    phabricator_client_secret: 'Phabricator Client Secret'
+    phabricator_url: 'Phabricator URL'
+    phabricator_button_login_title: 'Phabricator Login Button Title'
+    categories:
+      discourse_phabricator_connect: Discourse Phabricator Connect

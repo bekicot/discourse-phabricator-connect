@@ -1,0 +1,10 @@
+discourse_phabricator_connect:
+  discourse_phabricator_connect_enabled:
+    default: false
+    client: true
+  phabricator_client_id: ''
+  phabricator_client_secret: ''
+  phabricator_url: ''
+  phabricator_button_login_title:
+    default: 'with Phabricator'
+    client: true
