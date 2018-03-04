@@ -4,6 +4,7 @@ discourse_phabricator_connect:
     client: true
   phabricator_client_id: ''
   phabricator_client_secret: ''
+  phabricator_email_verified: true
   phabricator_url: ''
   phabricator_button_login_title:
     default: 'with Phabricator'
